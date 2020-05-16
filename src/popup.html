@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+      src="jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="toolbar">
+        <img id="logo" src="img/logo.png">
+      </div>
+
+      <div style="text-align:center;">
+	<select id="options">
+	</select>
+	<button id="push_to_form">Push Data</button>
+      </div>
+      <div>
+	<input type="file" style="visibility:hidden" id="data_file" name="data_file"/>
+	<div>
+	  <p style="text-align:center; padding-top:23px">
+	    <button style="border:none; background:none;" id="connect_data">
+	      <img class="connect-data-img" src="img/connect-data.png"/><br/>
+	    </button>
+	  </p>
+	  <div class="connect-data-text">
+	    <p style="text-align:center">Connect Data</p>
+	  </div>
+	</div>
+
+      </div>
+    </div>
+  </body>
+
+</html>

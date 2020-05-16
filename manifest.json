@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "OCTOPUS",
+    "description": "Auto Form for Velocity",
+    "version": "1.0",
+
+    "content_scripts": [{
+	"all_frames": true,
+        "run_at": "document_end",
+        "matches": [
+            "https://*/*",
+            "http://*/*"
+        ],
+        "js": ["content-script.js"],
+        "css": ["css/style.css"]
+    }],
+    
+    "browser_action": {
+        "default_icon": "img/icon.png"
+    },
+    
+    "web_accessible_resources": ["popup.html"],
+    
+    "background": {
+        "scripts":["background.js"]
+    },
+    
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/",
+        "storage"
+    ]
+  }

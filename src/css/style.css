@@ -1,0 +1,165 @@
+body {
+    margin: 10px;
+}
+#toolbar {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+#logo {
+    width:280px;
+}
+
+.container {
+    padding-top:42px;
+}
+
+.connect-data-img {
+    width:80%
+}
+
+.connect-data-text {
+    font-family: arial;
+    font-size: 14px;
+}
+
+#options {
+    align-items:center;
+    background-clip:padding-box;
+    background-color:rgb(255, 255, 255);
+    border-bottom-color:rgb(206, 212, 218);
+
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-image-outset:0px;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-left-color:rgb(206, 212, 218);
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:rgb(206, 212, 218);
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-color:rgb(206, 212, 218);
+    border-top-style:solid;
+    border-top-width:1px;
+    box-sizing:border-box;
+    color:rgb(73, 80, 87);
+    cursor:default;
+    /*display:block;*/
+    font-family:Arial;
+    font-size:16px;
+    font-stretch:100%;
+    font-style:normal;
+    font-variant-caps:normal;
+    font-variant-east-asian:normal;
+    font-variant-ligatures:normal;
+    font-variant-numeric:normal;
+    font-weight:400;
+    height:38px;
+    letter-spacing:normal;
+    line-height:normal;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    overflow-wrap:normal;
+    overflow-x:visible;
+    overflow-y:visible;
+    padding-bottom:6px;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top:6px;
+    text-align:start;
+    text-indent:0px;
+    text-rendering:auto;
+    text-shadow:none;
+    text-size-adjust:100%;
+    text-transform:none;
+    transition-delay:0s, 0s;
+    transition-duration:0.15s, 0.15s;
+    transition-property:border-color, box-shadow;
+    transition-timing-function:ease-in-out, ease-in-out;
+    white-space:pre;
+    word-spacing:0px;
+    writing-mode:horizontal-tb;
+    -webkit-appearance:menulist-button;
+    -webkit-rtl-ordering:logical;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    -webkit-border-image:none;
+    width:300px;
+}
+
+#push_to_form {
+    align-items:flex-start;
+    background-attachment:scroll;
+    background-clip:border-box;
+    background-color:#00bcd4;
+    border-color:#00bcd4;
+    background-image:none;
+    background-origin:padding-box;
+    background-position-x:0%;
+    background-position-y:0%;
+    background-repeat-x:;
+    background-repeat-y:;
+    background-size:auto;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-image-outset:0px;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-style:solid;
+    border-top-width:1px;
+    box-sizing:border-box;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    display:inline-block;
+    font-family: Arial;
+    font-size:14px;
+    font-stretch:100%;
+    font-style:normal;
+    font-variant-caps:normal;
+    font-variant-east-asian:normal;
+    font-variant-ligatures:normal;
+    font-variant-numeric:normal;
+    font-weight:400;
+    height:38px;
+    letter-spacing:normal;
+    line-height:24px;
+    margin-bottom:5px;
+    margin-left:0px;
+    margin-right:5px;
+    margin-top:0px;
+    overflow-x:visible;
+    overflow-y:visible;
+    padding-bottom:6px;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top:6px;
+    text-align:center;
+    text-indent:0px;
+    text-rendering:auto;
+    text-shadow:none;
+    text-size-adjust:100%;
+    text-transform:none;
+    transition-delay:0s, 0s, 0s, 0s;
+    transition-duration:0.15s, 0.15s, 0.15s, 0.15s;
+    transition-property:color, background-color, border-color, box-shadow;
+    transition-timing-function:ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    user-select:none;
+    vertical-align:middle;
+    width:100px;
+    word-spacing:0px;
+    writing-mode:horizontal-tb;
+    -webkit-appearance:none;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    -webkit-border-image:none;    
+}

@@ -1,0 +1,24 @@
+{
+  "name": "octopus-connector",
+  "version": "1.0.0",
+  "description": "## Add our \"OCTOPUS\" extension:",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoterLabsInc/octopus-connector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VoterLabsInc/octopus-connector/issues"
+  },
+  "homepage": "https://github.com/VoterLabsInc/octopus-connector#readme",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "csvtojson": "^2.0.10",
+    "gentelella": "^1.4.0"
+  }
+}
